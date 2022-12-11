@@ -4,6 +4,7 @@ body{
     font-family: 'Montserrat';
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -156,17 +157,20 @@ a{
     background-color: #F9F9F9;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .withp{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 26px;
-    margin-left: 20rem;
+    margin-left: 2rem;
     margin-right: 10rem;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
+    background-color: #F9F9F9;
+    width: 100%;
 }
 .withpspan{
-    margin-left: 15rem;
+    /* margin-left: 15rem; */
 }
 .photosynthesis{
     margin-top: 5rem;
@@ -175,14 +179,15 @@ a{
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 35px;
-    margin-top: 16rem;
-    margin-left: 14rem;
+    margin-top: 1rem;
+    /* margin-left: 14rem; */
+
 }
 .writequations{
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 27px;
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
     /* margin-left: 14rem; */
     margin-right: rem;
 }
@@ -198,9 +203,155 @@ a{
 .sec41{
     display: flex;
     flex-flow: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 13rem;
 
 }
 .pen{
     height: 3rem;  
-    width: ;  
+    width: 3rem;  
+}
+.sec5{
+    background-color: #F9F9F9;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.sec51{
+    margin-left: 5rem;
+}
+.sec52{
+    margin-left: 8rem;
+}
+.makeuse{
+    font-size: 30px;
+}
+.sec6{
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+}
+.useamazing{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 35px;
+}
+.makeamazing{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    
+}
+.sec62{
+    margin-left: 4rem;
+}
+.sec7{
+    display: flex;
+    background-color: #F9F9F9;
+    font-family: 'Montserrat';
+}
+.sec71{
+    margin-top: 8rem;
+}
+.sec72{
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+.treescan{
+    font-size: 36px;
+    font-weight: 600;
+}
+.astrees{
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.viewbtn{
+    padding: 15px;
+    background-color: #269E6C;
+    border-radius: 12px;
+    color: white;
+    font-weight: 530;
+    margin-top: 20%;
+}
+.sec8{
+    display: flex;  
+    flex-flow: column;
+    border: 2px solid black;
+
+}
+.join{
+    font-family: 'Montserrat';
+    font-size: 36px;
+}
+.beone{
+    font-size: 28px;
+    font-weight: 300;
+}
+.beonespan{
+    margin-left: 2rem;
+}
+.email{
+    margin-top: 1rem;
+    height: 2.5rem;
+    width: 35rem;
+}
+.name{
+    height: 2.5rem;
+    width: 35rem;
+    
+}
+.msg{
+    height: 5.5rem;
+    width: 35rem;
+
+}
+.sec81{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec82{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+.join{
+    margin-top: 12rem;
+}
+.beone{
+    margin-top: 1rem;
+}
+#joinbtn{
+    margin-top: 1.8rem;
+    padding: 15px;
+    /* background-color: #269E6C; */
+    border-radius: 12px;
+    color: white;
+    font-weight: 530;
+    
+}
+.joinbtn{
+    width: 100%;
+    background-color: #269E6C;
+    border-radius: 12px;
+    color: white;
+    font-weight: 530;
+    margin-left: 43rem;
+
+}
+.letssave{
+    position: relative;
+    right: -34rem;
+    height: 25rem;
+    /* bottom: 13rem; */
+    top: -20rem;
+}
+.sec9{
+
+}
+.sec91{
+    color: #269E6C;
 }
